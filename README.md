@@ -21,20 +21,25 @@ We also see that most of them don't work overtime. ![works overtime](https://git
 
 Results.
 
-Overall K-nearest neighbors performed the best, but naive bayes had fewer false negatives. You can see classification reports and confusion matricies for the models below.
+Overall K-nearest neighbors performed the best, but naive bayes had fewer false negatives. You can see classification reports, ROC curves and confusion matricies for the models below.
 
 For logistic regression.
 ![изображение](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/00c8cad6-6c3f-4248-a2dc-a91659667e0a)
 
 ![log cm](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/3e4433bb-01a3-475b-91c6-527279381306)
 
+![log_roc](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/852a65c2-e5cb-49d5-bbff-7fe4890cbf47)
+
 for naive bayes.
 ![изображение](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/fbfe2faf-33dc-49a9-b443-9a8e5c97ee91)
 
 ![bayes cm](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/6211775c-39da-4c39-b563-e079739053c6)
+
+![bayes_roc](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/c22f760a-3a48-48b8-ba72-3559af7b6af8)
 
 for knn
 ![изображение](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/603ef020-c65a-4e83-b309-7c10561a8e2d)
 
 ![knn cm](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/5fee2ad2-7d52-4a28-838b-47943f45b80b)
 
+![knn_roc](https://github.com/SargisArzumanyan/Mini-Project-2-Pre-Interview-Assessment/assets/82839525/230fb2ac-3ab0-44d0-9848-b77148619318)
