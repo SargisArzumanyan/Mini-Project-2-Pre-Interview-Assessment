@@ -5,7 +5,7 @@ The aim of this project is to predict, if a candidate with given features will b
  To run the code, first download the notebook and the data. Then you can run it locally if you have Jupyter installed, or upload it to google colab, for which you will need google account.
 
  Modules used.
- 'Pandas' is used to load the dataset. 'Matplotlib' is used to visualize the data. 'train_test_split' from sklearn.model_selection is used to split the data into training and test datasets. 'StandartScaler, OrdinalEncoder and LabelEncoder' are used to rescale the numerical values and turn categorical ones into integers. 'LogisticRegression, GaussianNB and Kneighborsclassifier' are used to build and fit the classification models. 'mean_squared_error, classification_report, confusion_matrix and model.score (which is r2 score)' are used to evaluate the models.
+ 'Pandas' is used to load the dataset. 'Matplotlib' is used to visualize the data. 'train_test_split' from sklearn.model_selection is used to split the data into training and test datasets. 'StandartScaler, OrdinalEncoder and LabelEncoder' are used to rescale the numerical values and turn categorical ones into integers. 'LogisticRegression, GaussianNB and Kneighborsclassifier' are used to build and fit the classification models. 'mean_squared_error, classification_report, confusion_matrix, RocCurveDisplay and model.score (which is r2 score)' are used to evaluate the models.
 
  The dataset contains 'Age,	BusinessTravel,	Education,	MaritalStatus,	OverTime,	EmployeeNumber,	DailyRate,	Gender.' features, from which only 'EmployeeNumber' is not used, because it has no meaning. The label is 'accepted for the interview' which has values 'True' and 'False' (1 and 0 respectivly after performing label encoder).
 
